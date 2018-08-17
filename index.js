@@ -147,7 +147,8 @@ var createBinding = function(root, state) {
       }
       setPath(key, state, value);
       render();
-    }
+    },
+    configurable: true
   });
   
   Object.defineProperty(state, "destroy", {
@@ -155,7 +156,8 @@ var createBinding = function(root, state) {
       callbacks = null;
       listeners.forEach(def => def.element.removeEventListener(def.event, def.listener));
       if (scheduled) cancelAnimationFrame(scheduled);
-    }
+    },
+    configurable: true
   });
 
   render();
