@@ -11,7 +11,7 @@ Kudzu is a simple client-side library for binding data to DOM structures, with s
 Intro
 -----
 
-Kudzu manages the DOM by mapping data to special attributes in your HTML. To use it, you add special attributes to your markup, then pass a root element and a state object to the Kudzu factory function. For example, we might write the following HTML:
+Kudzu manages the DOM by mapping data to special attributes in your HTML. To use it, you write mostly-standard markup, then pass a root element and a state object to the Kudzu factory function. For example, we might write the following HTML:
 
 ```html
 <div id="example" :innerhtml="greeting" @click="onClick">Hello, world!</div>
