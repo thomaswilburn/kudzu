@@ -1,6 +1,6 @@
 {
   "name": "@twilburn/kudzu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A microlibrary for data-binding",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Thomas Wilburn",
-  "license": "GPLv2"
+  "license": "GPLv2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thomaswilburn/kudzu.git"
+  }
 }
